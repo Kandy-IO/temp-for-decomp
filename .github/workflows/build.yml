@@ -1,0 +1,14 @@
+name: Build
+
+on:
+  pull_request:
+    types: [opened, ready_for_review, reopened, synchronize]
+  workflow_dispatch:
+
+jobs:
+  foo:
+    runs-on: ubuntu-latest
+  	steps:
+      - name: echo
+  	    run: |
+  	      echo "To implemented"
