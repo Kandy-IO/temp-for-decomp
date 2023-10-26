@@ -8,7 +8,7 @@ on:
 jobs:
   foo:
     runs-on: ubuntu-latest
-  	steps:
+    steps:
       - name: echo
-  	    run: |
-  	      echo "To implemented"
+        run: |
+          echo "To be implemented"
